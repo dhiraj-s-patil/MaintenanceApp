@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhiraj.admin.project_maintenance.RegistrationActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailTV" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailTV"
+        android:layout_below="@+id/emailTV"
+        android:layout_marginTop="29dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:id="@+id/passwordTV" />
+
+    <Button
+        android:id="@+id/signupBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordTV"
+        android:layout_below="@+id/passwordTV"
+        android:layout_marginEnd="99dp"
+        android:layout_marginTop="43dp"
+        android:text="Signup" />
+
+    <TextView
+        android:id="@+id/signInLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupBT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Already a user? Sign in"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/progressbar"/>
+</RelativeLayout>

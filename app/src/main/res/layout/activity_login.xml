@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhiraj.admin.project_maintenance.LoginActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailLTV" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailLTV"
+        android:layout_below="@+id/emailLTV"
+        android:layout_marginTop="29dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:id="@+id/passwordLTV" />
+
+    <Button
+        android:id="@+id/signinBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordLTV"
+        android:layout_below="@+id/passwordLTV"
+        android:layout_marginEnd="99dp"
+        android:layout_marginTop="43dp"
+        android:text="Sign In" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/progressbar"/>
+</RelativeLayout>
