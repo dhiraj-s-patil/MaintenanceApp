@@ -4,11 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dhiraj.admin.project_maintenance.HomeActivity">
+    tools:context="com.dhiraj.admin.project_maintenance.ModifyRequestActivity">
 
-
-    <ExpandableListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-         />
 </android.support.constraint.ConstraintLayout>

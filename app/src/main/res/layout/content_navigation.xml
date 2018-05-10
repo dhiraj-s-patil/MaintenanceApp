@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.dhiraj.admin.project_maintenance.NavigationActivity"
+    tools:context="com.dhiraj.admin.project_maintenance.UserHomeActivity"
     tools:showIn="@layout/app_bar_navigation">
 
-    <ListView
-        android:id="@+id/requestsListView"
+    <FrameLayout
+        android:id="@+id/home_main_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 </android.support.constraint.ConstraintLayout>

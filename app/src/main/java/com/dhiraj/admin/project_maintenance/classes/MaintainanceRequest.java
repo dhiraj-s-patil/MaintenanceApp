@@ -5,7 +5,7 @@ package com.dhiraj.admin.project_maintenance.classes;
  */
 
 public class MaintainanceRequest {
-    String reqId, type, details, createTime, endTime, actualEndTIme,status;
+    private String reqId, type, details, createTime, endTime, actualEndTIme,status;
 
     public MaintainanceRequest(String reqId, String type, String details, String createTime, String endTime, String actualEndTIme, String status) {
         this.reqId = reqId;

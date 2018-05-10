@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         progressBar = findViewById(R.id.progressbar);
 
         //Test
-        startActivity(new Intent(this,NavigationActivity.class));
+        startActivity(new Intent(this,UserHomeActivity.class));
 
     }
 

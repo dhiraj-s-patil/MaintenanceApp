@@ -141,6 +141,7 @@ public class FillUserDetailsActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             if(task.isSuccessful()){
                                 Toast.makeText(getApplicationContext(),"Profile updated",Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(getApplicationContext(),UserHomeActivity.class));
                             }
                         }
                     });

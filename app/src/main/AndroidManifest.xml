@@ -19,11 +19,12 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".FillUserDetailsActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".CreateRequestActivity" />
         <activity
-            android:name=".NavigationActivity"
+            android:name=".UserHomeActivity"
             android:label="@string/title_activity_navigation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ModifyRequestActivity"></activity>
     </application>
 
 </manifest>
